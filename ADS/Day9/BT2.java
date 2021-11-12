@@ -68,11 +68,11 @@ class BT2
 	public static void main(String args[])
 	{
 		BT2 t1 = new BT2();
-		t1.root = new Node(1);
-		t1.root.left = new Node(2);
-		t1.root.right = new Node(3);
-		t1.root.left.left = new Node(4);
-		t1.root.left.right = new Node(5);
+		t1.root = new Node(11);
+		t1.root.left = new Node(22);
+		t1.root.right = new Node(33);
+		t1.root.left.left = new Node(44);
+		t1.root.left.right = new Node(55);
 		
 		System.out.println("Inorder Traversal : ");
 		t1.Inorder();
