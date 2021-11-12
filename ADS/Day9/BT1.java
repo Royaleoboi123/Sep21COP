@@ -26,9 +26,9 @@ class BT1
 	public static void main()
 	{
 		BT1 t1 = new BT1();
-		t1.root = new Node(1);
-		t1.root.left = new Node(2);
-		t1.root.right = new Node(3);
-		t1.root.left.left = new Node(4);
+		t1.root = new Node(11);
+		t1.root.left = new Node(22);
+		t1.root.right = new Node(33);
+		t1.root.left.left = new Node(44);
 	}
 }
