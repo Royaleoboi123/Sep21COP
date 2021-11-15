@@ -1,4 +1,4 @@
-class Bubblesort
+class Allsort
 {
 	void bubblesort(int a1[])
 {
@@ -227,7 +227,7 @@ void display(int a1[])
 	public static void main(String args[])
 	{
 		int a1[] = {44, 66, 22, 77, 55, 12, 45};
-		Bubblesort b1 = new Bubblesort();
+		Allsort b1 = new Allsort();
 		b1.display(a1);
 		int n = a1.length;
 		
