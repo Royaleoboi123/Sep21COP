@@ -56,7 +56,7 @@
 
 	public void display(Node node)
 	{
-		Node last = null;
+		Node last = head;
 		System.out.println("Traversal in forward Direction");
 		while (node != null) {
 			System.out.print(node.data + " ");
